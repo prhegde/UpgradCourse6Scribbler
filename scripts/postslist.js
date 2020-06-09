@@ -45,7 +45,7 @@ let postsList = [];
 postsList.push(new Post(
     1,
     'Srishti Gupta',
-    '‘let’ me be a ‘const’(ant), not a ‘var’(iable)!',
+    '"let" me be a "const"(ant), not a "var"(iable)!',
     'Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.'
 ));
 postsList.push(new Post(
@@ -69,7 +69,7 @@ postsList.push(new Post(
 postsList.push(new Post(
     5,
     'Srishti Gupta',
-    'Everything you should know about ‘module’ & ‘require’ in Node.js',
+    'Everything you should know about "module" & "require" in Node.js',
     'Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module named xyz.'
 ));
 

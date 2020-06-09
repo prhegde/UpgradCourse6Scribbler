@@ -3,6 +3,7 @@
 const modalContainer = document.getElementById('modal-container');
 const signUpModal = document.getElementById('modal-dialog-signup');
 const signInModal = document.getElementById('modal-dialog-signin');
+const createModal = document.getElementById('modal-dialog-createpost');
 
 function onSignUpRequested() {
     modalContainer.style.display = 'block';
@@ -22,4 +23,14 @@ function onSignInRequested() {
 function onSignInCloseRequested() {
     modalContainer.style.display = 'none';
     signInModal.style.display = 'none';
+}
+
+function onCreatePostRequested() {
+    modalContainer.style.display = 'block';
+    createModal.style.display = 'block';
+}
+
+function onCreatePostCloseRequested() {
+    modalContainer.style.display = 'none';
+    createModal.style.display = 'none';
 }
